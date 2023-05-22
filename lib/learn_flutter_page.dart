@@ -19,7 +19,7 @@ class LearnFlutterPage extends StatelessWidget {
       ),
       body: Column(
         children: [
-          Image.asset('.jpg'),
+          Image.asset('assets/images/eistein.jpg'),
           const Divider(
             color: Colors.black,
           ),
