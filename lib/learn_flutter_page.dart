@@ -38,7 +38,7 @@ class LearnFlutterPage extends StatelessWidget {
               )),
           ElevatedButton(
             style: ElevatedButton.styleFrom(
-              primary: isSwitch ? Colors.green : Colors.blue,
+              backgroundColor: isSwitch ? Colors.green : Colors.blue,
             ),
             onPressed: () {
               debugPrint('Elevated Button');
@@ -84,7 +84,6 @@ class LearnFlutterPage extends StatelessWidget {
               }),
           Checkbox(value: isCheckbox, onChanged: (bool? newBool) {})
         ],
-        
       ),
     );
   }
